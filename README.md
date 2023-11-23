@@ -11,13 +11,13 @@
 
 #### 注意事项
 
-本插件使用的wiki是bilibili的镜像站，是为了保证国内的访问速度，如果你有其他更好的选择，修改代码中
+mc官方中文wiki迁址后，bilibili镜像wiki关闭，此插件使用的wiki是官方中文wiki，如果你有其他更好的选择，修改代码中
 ```
-let url = `https://wiki.biligame.com/mc/${encodeQuery}`
+let url = `https://zh.minecraft.wiki/w/${encodeQuery}`
 ```
 的
 ```
-https://wiki.biligame.com/mc/
+https://zh.minecraft.wiki/w/
 ```
 可以更改查询的网站
 
@@ -25,8 +25,8 @@ https://wiki.biligame.com/mc/
 
 #### 使用说明
 
-使用命令“#wiki”后面跟着想要查询的mc物品即可查询，如果非mc物品或者输入错误会提示查询不到
+使用命令“#mcwiki”后面跟着想要查询的mc物品即可查询，如果非mc物品或者输入错误会提示查询不到
 
 #### ToDo
 
-增加使用聊天指令切换镜像站的功能，例如"#wiki设置[1-4]"，来切换fandom wiki，中文wiki，哔哩镜像wiki，官方wiki，以及使用检测网页内的元素，来判断搜索是否有结果
+增加使用聊天指令切换镜像站的功能，例如"#wiki设置[1-3]"，来切换fandom wiki，中文wiki，官方wiki，以及使用检测网页内的元素，来判断搜索是否有结果
